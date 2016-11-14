@@ -3,6 +3,7 @@ package com.lazorjack.football.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 /**
  * Created by jacklazorchak on 11/8/16.
@@ -14,6 +15,9 @@ public class HeadCoach extends Person {
     @Id
     @GeneratedValue
     private Long id;
+
+    @OneToOne(mappedBy = "headCoach")
+    private Team team;
 
     public HeadCoach(){
         super();
@@ -29,5 +33,13 @@ public class HeadCoach extends Person {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
     }
 }

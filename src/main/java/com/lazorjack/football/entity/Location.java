@@ -3,6 +3,7 @@ package com.lazorjack.football.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 /**
  * Created by jacklazorchak on 11/6/16.
@@ -21,6 +22,9 @@ public class Location {
     private Integer capacity;
 
     private String coordinates;
+
+    @OneToOne(mappedBy = "location")
+    private Team team;
 
     public Long getId() {
         return id;

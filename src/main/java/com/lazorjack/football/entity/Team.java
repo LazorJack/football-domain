@@ -16,8 +16,10 @@ public class Team {
 
     private String name;
 
+    @OneToOne
     private Location location;
 
+    @OneToOne
     private HeadCoach headCoach;
 
     @ManyToOne

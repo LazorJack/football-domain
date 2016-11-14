@@ -1,0 +1,11 @@
+com/lazorjack/football/entity/Game.class
+com/lazorjack/football/entity/Person.class
+com/lazorjack/football/entity/Position.class
+com/lazorjack/football/entity/Team.class
+com/lazorjack/football/entity/Conference.class
+com/lazorjack/football/entity/Division.class
+com/lazorjack/football/entity/League.class
+com/lazorjack/football/entity/Player.class
+com/lazorjack/football/entity/HeadCoach.class
+com/lazorjack/football/entity/Location.class
+com/lazorjack/football/entity/Season.class

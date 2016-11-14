@@ -7,7 +7,7 @@ import javax.persistence.Id;
 /**
  * Created by jacklazorchak on 11/8/16.
  */
-@Entity
+
 public class Person {
 
     private String firstName;

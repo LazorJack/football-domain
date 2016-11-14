@@ -1,5 +1,6 @@
 package com.lazorjack.football.entity;
 
+
 import javax.persistence.*;
 
 /**
